@@ -1,0 +1,15 @@
+{
+    "name": "stoptimer.hanneslindner",
+    "description": "This is a simple Stopwatch including a Timer. When the Time is up a sound will be played and the time since the alarm is played is shown.",
+    "architecture": "all",
+    "title": "StopTimer",
+    "hooks": {
+        "TestSimple": {
+            "apparmor": "TestSimple.apparmor",
+            "desktop": "TestSimple.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Hannes Lindner <hannes.lindner@posteo.de>",
+    "framework": "ubuntu-sdk-14.10"
+}

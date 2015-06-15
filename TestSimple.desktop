@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=StopTimer
+Exec=qmlscene $@ Main.qml
+Icon=TestSimpleUI.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+
